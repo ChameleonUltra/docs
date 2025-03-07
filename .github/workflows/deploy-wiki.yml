@@ -17,7 +17,7 @@ jobs:
       - name: Checkout wiki repository
         uses: actions/checkout@v4
         with:
-          repository: ChameleonUltra/ChameleonUltra.wiki.git
+          repository: ChameleonUltra/ChameleonUltra.wiki
           path: wiki-repo
           token: ${{ secrets.WIKI_DEPLOY_TOKEN }}
           
